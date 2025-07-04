@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>examen</title>
+    <link rel="stylesheet" href="./css/comun.css">
+
+</head>
+
+<body>
+
+    <header></header>
+
+    <select name="numerologia" size="10" id="dato">
+
+        <option value="0">Año</option>
+        <option value="1">Número personal</option>
+        <option value="2">Número del Destino</option>
+        <option value="3">Número del nombre</option>
+        <option value="4">Número del Alma</option>
+        <option value="5">Expresión del Alma</option>
+        <option value="seis">Proyecto sentido</option>
+        <option value="siete">Año Personal</option>
+        <option value="ocho">Mes Personal</option>
+
+    </select>
+
+    <button type="button" onclick="seleccionar()">click</button>
+
+    <script src="./js/indice.js"></script>
+
+    <script>
+    
+    function seleccionar() { 
+
+
+
+            switch (valor) {
+                case "0":
+                    window.open('nombrep.html?imagen=sol&extension=jpg', '_blank');
+                    break;
+                case "1":
+                   window.open('consonantes.html?imagen=sol&extension=jpg', '_blank');
+                    break;
+                case "2":
+                    window.open('destino.html?imagen=sol&extension=jpg', '_blank');
+                    break;
+                case "3":
+                    window.open('calendario.html?imagen=sol&extension=jpg', '_blank');
+                    break;
+                case "4":
+                    window.open('vocales.html?imagen=sol&extension=jpg', '_blank');
+                    break;
+                case "5":
+                    window.open('personal.html?imagen=sol&extension=jpg', '_blank');
+                    break;
+                case "6":
+                   window.open('anno.html?imagen=sol&extension=jpg', '_blank');
+                    break;
+                case "7":
+                   window.open('mes.html?imagen=sol&extension=jpg', '_blank');
+                    break;
+                case "8":
+                    window.open('sentdio.html?imagen=sol&extension=jpg', '_blank');;
+                    break;
+                default:
+                   alert("IDIOTA") }
+        }
+
+
+
+    
+
+    </script>
+
+
+</body>
+
+</html>
